@@ -3,7 +3,7 @@ include: "stats.view.lkml"
 view: ad_group_stats {
   extends: [stats]
 
-  sql_table_name: adwords_v201609.AdGroupStats_6747157124 ;;
+  sql_table_name: nl_account.AdGroupStats_6369445172 ;;
 
   dimension_group: _data {
     description: "Filter on this field to limit query to a specified date range"

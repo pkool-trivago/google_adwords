@@ -2,7 +2,7 @@ include: "entity_base.view.lkml"
 
 view: ad_group {
   extends: [entity_base]
-  sql_table_name: adwords_v201609.AdGroup_6747157124 ;;
+  sql_table_name: nl_account.AdGroup_6369445172 ;;
 
   dimension_group: _data {
     type: time

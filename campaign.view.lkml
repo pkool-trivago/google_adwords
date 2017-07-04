@@ -2,7 +2,7 @@ include: "entity_base.view.lkml"
 
 view: campaign {
   extends: [entity_base]
-  sql_table_name: adwords_v201609.Campaign_6747157124 ;;
+  sql_table_name: nl_account.Campaign_6369445172 ;;
 
   dimension_group: _data {
     type: time

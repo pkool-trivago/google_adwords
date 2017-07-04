@@ -2,7 +2,7 @@ include: "stats.view.lkml"
 
 view: campaign_stats{
   extends: [stats]
-  sql_table_name: adwords_v201609.CampaignStats_6747157124 ;;
+  sql_table_name: nl_account.CampaignStats_6369445172 ;;
 
   dimension_group: _data {
     description: "Use this date field to filter results to specific time period"

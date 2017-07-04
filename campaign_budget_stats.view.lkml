@@ -6,7 +6,7 @@ view: campaign_budget_stats {
   campaign_stats._DATA_DATE AS _DATA_DATE,
   COALESCE(SUM((campaign.Amount) ), 0) AS amount,
   COALESCE(SUM((campaign_stats.Cost) ), 0) AS cost
-FROM adwords_v201609.CampaignStats_6747157124  AS campaign_stats
+FROM nl_account.CampaignStats_6369445172  AS campaign_stats
 LEFT JOIN adwords_v201609.Campaign_6747157124  AS campaign ON campaign_stats.CampaignId = campaign.CampaignId AND
       campaign_stats._DATA_DATE = campaign._DATA_DATE
 

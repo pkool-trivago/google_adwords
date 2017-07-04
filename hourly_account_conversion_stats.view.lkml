@@ -3,7 +3,7 @@ include: "conversion_stats.view.lkml"
 view: hourly_account_conversion_stats {
   extends: [conversion_stats]
 
-  sql_table_name: adwords_v201609.HourlyAccountConversionStats_6747157124 ;;
+  sql_table_name: nl_account.HourlyAdGroupConversionStats_6369445172 ;;
 
   dimension_group: _data {
     type: time

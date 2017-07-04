@@ -3,7 +3,7 @@ include: "stats.view.lkml"
 view: account_stats {
   extends: [stats]
 
-  sql_table_name: adwords_v201609.AccountStats_6747157124 ;;
+  sql_table_name: nl_account.AccountStats_6369445172 ;;
 
   dimension_group: _data {
     type: time

@@ -3,7 +3,7 @@ include: "stats.view.lkml"
 view: keyword_stats {
   extends: [stats]
 
-  sql_table_name: adwords_v201609.KeywordStats_6747157124 ;;
+  sql_table_name: nl_account.KeywordStats_6369445172 ;;
 
   dimension_group: _data {
     description: "Filter on this field to constain the query to a specific time range"
