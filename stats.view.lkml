@@ -17,7 +17,13 @@ view: stats {
   measure: total_cost_usd {
     type: sum
     sql: ${cost_usd} ;;
-    value_format_name: usd_0
+    value_format_name: decimal_0
+  }
+
+  measure: average_cost_usd_by_click {
+    type: number
+    sql: ${total_cost_usd}/${total_clicks} ;;
+    value_format_name: decimal_4
   }
 
   measure: total_conversions {
